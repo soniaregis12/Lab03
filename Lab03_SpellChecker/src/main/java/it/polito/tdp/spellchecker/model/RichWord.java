@@ -6,6 +6,10 @@ public class RichWord {
 	boolean corretta;
 	
 	
+	public RichWord(String parola) {
+		this.parola = parola;
+	}
+	
 	public String getParola() {
 		return parola;
 	}

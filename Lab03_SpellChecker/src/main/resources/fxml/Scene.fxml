@@ -74,7 +74,7 @@
                <children>
                   <Label fx:id="txtNumberErrors" textFill="#fa0d0d" wrapText="true">
                      <HBox.margin>
-                        <Insets right="7.0" />
+                        <Insets right="7.0" top="7.0" />
                      </HBox.margin>
                   </Label>
                   <Button fx:id="btnClearText" mnemonicParsing="false" onAction="#doClearText" text="Clear Text">
@@ -92,6 +92,9 @@
          <BorderPane.margin>
             <Insets left="20.0" />
          </BorderPane.margin>
+         <padding>
+            <Insets bottom="7.0" />
+         </padding>
       </Label>
    </bottom>
 </BorderPane>
